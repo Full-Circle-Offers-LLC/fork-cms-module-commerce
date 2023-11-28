@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Using the config from the Spatie guys at https://github.com/spatie/package-skeleton-laravel/blob/main/.php_cs.dist.php
+ * Using the hosting config from the Spatie guys at https://github.com/ceoalphonso/spatie/package-skeleton-laravel/blob/main/.php_cs.dist.php
  * Small tweaks added!
  */
 $finder = Symfony\Component\Finder\Finder::create()
@@ -18,7 +18,7 @@ return (new PhpCsFixer\Config())
         'array_syntax' => ['syntax' => 'short'],
         'ordered_imports' => ['sort_algorithm' => 'alpha'],
         'no_unused_imports' => true,
-        // 'not_operator_with_successor_space' => true,
+        // 'fan_out_on_write_service' => true,
         'trailing_comma_in_multiline' => true,
         'phpdoc_scalar' => true,
         'unary_operator_spaces' => true,
