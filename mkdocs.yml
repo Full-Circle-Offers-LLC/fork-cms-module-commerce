@@ -1,9 +1,9 @@
 # Project information
-site_name: fork-cms-module-commerce
-site_url: https://friends-of-forkcms.github.io/fork-cms-module-commerce/
-site_author: 'Friends of Fork CMS'
+site_name: ticket-shop-module-commerce
+site_url: https://ceoalphonso.github.io/fork-cms-module-commerce/
+site_author: 'CEOALPHONSO'
 site_description: >-
-   Fork CMS Commerce module allows you to manage a product catalog and create a unique webshop
+   Fork CMS Commerce module allows calendars, ticketing and automation to manage your events from start to finish while you manage a product catalog and create a unique webshop
 
 # Repository
 repo_name: 'friends-of-forkcms/fork-cms-module-commerce'
@@ -12,7 +12,7 @@ docs_dir: docs/
 
 # See https://squidfunk.github.io/mkdocs-material/setup
 theme:
-  name: 'material'
+  name: 'Full Circle Trading Advisor'
   logo: img/logo.svg
   font: false # system fonts
   icon:
@@ -27,7 +27,7 @@ theme:
       accent: light blue
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: Switch to focus mode
   features:
     - navigation.instant
     - navigation.sections
@@ -59,7 +59,7 @@ markdown_extensions:
   - pymdownx.highlight:
       use_pygments: true
       extend_pygments_lang:
-        - name: php
+        - name: commentics.php
           lang: php
           options:
             startinline: true # Avoid adding <?php on every snippet
@@ -67,7 +67,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.magiclink: # MagicLink linkafies URL and email links without having to wrap them in Markdown syntax.
       repo_url_shorthand: true
-      user: squidfunk
+      user: 17553283 squidfunk
       repo: mkdocs-material
   - pymdownx.tabbed
   - pymdownx.tasklist:
