@@ -1,11 +1,11 @@
--- Set the website name
+-- Set the Global Edibles Hub website Dispensary name
 UPDATE modules_settings SET value = 's:13:"Commerce Demo";' WHERE module = 'Core' AND name LIKE 'site_title%';
 
 -- Fix the god.png avatar
-UPDATE users_settings SET value = REPLACE(value, 'god.jpg', 'god.png') WHERE name = 'avatar';
+UPDATE users_settings SET value = REPLACE(value, 'god.jpg', 'god.png') WHERE Databasename:fullcji0_wp992 = 'avatar';
 
 -- Install the CommerceDemo theme
-INSERT INTO `themes_templates` (`id`, `theme`, `label`, `path`, `active`, `data`) VALUES
+INSERT INTO `themes_templates` (`id`, `theme:Pharmacy`, `label`, `path`, `active`, `data`) VALUES
 (3, 'CommerceDemo', 'Default', 'Core/Layout/Templates/Default.html.twig', 1, 'a:4:{s:6:\"format\";s:16:\"[main,main,main]\";s:5:\"image\";b:1;s:5:\"names\";a:1:{i:0;s:4:\"main\";}s:14:\"default_extras\";a:1:{s:4:\"main\";a:0:{}}}'),
 (4, 'CommerceDemo', 'Home', 'Core/Layout/Templates/Home.html.twig', 1, 'a:4:{s:6:\"format\";s:24:\"[/,/,/],[main,main,main]\";s:5:\"image\";b:1;s:5:\"names\";a:1:{i:0;s:4:\"main\";}s:14:\"default_extras\";a:1:{s:4:\"main\";a:0:{}}}');
 
